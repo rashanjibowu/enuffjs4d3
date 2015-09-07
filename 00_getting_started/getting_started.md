@@ -38,21 +38,55 @@ Within your `head` tag and after your `title` tag, add the following line to you
 
 `<script type='text/javascript' src='path/to/d3.js'></script>`
 
-You should replace the text "path/to/d3.js" with the path to the library.
+You should replace the text "path/to/d3.js" with the path to the library. Your webpage should look like this:
+
+```{html}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My D3 Visualization</title>
+        <script type='text/javascript' src='path/to/d3.js'></script>
+    </head>
+    <body>
+        <p>Hello World!</p>
+    </body>
+</html>
+
+```
 
 ### Link an external CSS file and external JS file to your app
 
 Within your `head` tag and after your `title` tag, add the following line to your html:
 
-`<link rel='stylesheet' href='css/style.css'></script>`
+`<link rel='stylesheet' href='css/style.css' />`
 
 Don't forget to create a file called style.css in that directory. OR just copy the `app` directory from within this repo. There is already a CSS file that will be helpful.
 
 After your `body` tag and within the `html` tag, add the following line to your html:
 
-`<script type='text/javascript' src='app.js'></script>`
+`<script type='text/javascript' src='js/app.js'></script>`
 
-Don't forget to create a file called app.js in that directory. OR just copy the `app` directory from within this repo. There is already a JS file that may be helpful.
+Don't forget to create a file called app.js in that directory. Or, copy the `app` directory from within this repo. There is already an app.js file that may be helpful. Your webpage should now look like this:
+
+```{html}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My D3 Visualization</title>
+        <link rel='stylesheet' href='css/style.css' />
+        <script type='text/javascript' src='path/to/d3.js'></script>
+    </head>
+    <body>
+        <p>Hello World!</p>
+    </body>
+    <script type='text/javascript' src='js/app.js'></script>
+</html>
+
+```
 
 ### Using `console.log`
 
