@@ -1,3 +1,4 @@
+// Adapted from Mike Bostock's Let's Make a Bar Chart Tutorial -- accessible at http://bost.ocks.org/mike/bar/3/
 
 // dimensions
 var margin = {

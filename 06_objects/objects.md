@@ -1,8 +1,6 @@
 # Objects
 
-Almost _everything_ in Javascript is an object. However, we'll talk more about that fact in a later module.
-
-In this module, we use the term object to describe an _object literal_ -- an arbitrary set of key-value pairs. They are collections of related properties and enable a certain _realism_ when writing complex programs.
+Almost _everything_ in Javascript is an object. However, in this module, we use the term object to describe an _object literal_ -- an arbitrary set of key-value pairs. They are collections of related properties and enable a certain _realism_ when writing complex programs.
 
 ## Creating an object:
 

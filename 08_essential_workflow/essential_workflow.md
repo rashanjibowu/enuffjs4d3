@@ -23,4 +23,4 @@ D3 combines an understanding of the Document Object Model ("DOM"), Scalable Vect
 
 ## Let's start visualizing data!
 
-[What's next from here?](../09_conclusion/conclusion.md)
+[Let's Build a Bar Chart!](build_bar_chart.md)
