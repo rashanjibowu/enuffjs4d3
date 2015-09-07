@@ -33,11 +33,12 @@ var yAxis = d3.svg.axis()
 
 // create an svg in the DOM
 // creates a sub canvas for the drawing
-var svg = d3.select("body").append("svg")
-	.attr("width", width + margin.left + margin.right)
-	.attr("height", height + margin.top + margin.bottom)
-	.append("g")
-	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+var svg = d3.select("body")
+	.append("svg")
+		.attr("width", width + margin.left + margin.right)
+		.attr("height", height + margin.top + margin.bottom)
+		.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // explain callbacks as functions
 // load the data from a data source
