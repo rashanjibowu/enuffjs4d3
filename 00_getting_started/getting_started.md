@@ -6,8 +6,9 @@ In this module, we will:
 1. Set up your dev environment
 2. Create a basic web page
 3. Link D3.js to your web-page
-4. Use `console.log` in a script
-5. Explore the browser console
+4. Link external CSS and JS files
+5. Use `console.log` in a script
+6. Explore the browser console
 
 ## Setting up Dev Environment
 
@@ -19,8 +20,10 @@ In this module, we will:
 
 ```{html}
 
+<!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>My D3 Visualization</title>
     </head>
     <body>
@@ -36,6 +39,20 @@ Within your `head` tag and after your `title` tag, add the following line to you
 `<script type='text/javascript' src='path/to/d3.js'></script>`
 
 You should replace the text "path/to/d3.js" with the path to the library.
+
+## Link an external CSS file and external JS file to your app
+
+Within your `head` tag and after your `title` tag, add the following line to your html:
+
+`<link rel='stylesheet' href='css/style.css'></script>`
+
+Don't forget to create a file called style.css in that directory. OR just copy the `app` directory from within this repo. There is already a CSS file that will be helpful.
+
+After your `body` tag and within the `html` tag, add the following line to your html:
+
+`<script type='text/javascript' src='app.js'></script>`
+
+Don't forget to create a file called app.js in that directory. OR just copy the `app` directory from within this repo. There is already a JS file that may be helpful.
 
 ## Using `console.log`
 
