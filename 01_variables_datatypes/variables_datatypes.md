@@ -1,11 +1,11 @@
-# Variables and Data Types
+## Variables and Data Types
 
-Javascript is untyped; a variable can contain any type of data. There are also 2 important syntax rules to observe.
+Unlike Java, C, C++ and certain other languages, Javascript is not a strongly typed language. No data type is specified when declaing a variable and a variable can contain any type of data. There are also 2 important syntax rules to observe.
 
 1. Always declare a variable using `var`
 2. Always end a statement using a semicolon (`;`)
 
-Since you are probably already have programming experience, we won't cover the minutae of every data type. Instead, we'll demonstrate the ones you are likely to encounter in your journey through D3.js.
+Since you probably already have programming experience, we won't cover the minutiae of every data type. Instead, we'll demonstrate the ones you are likely to encounter in your journey through D3.js.
 
 ### Numerical Data (integers, floats)
 
@@ -39,7 +39,7 @@ console.log(isAuthorRich);
 
 ### Constants
 
-In truth, Javascript doesn't really have constants, but through some APIs and libraries, they have been made available:
+In truth, Javascript doesn't really have constants. However, some APIs and libraries simulate the effect of constants:
 
 ```{javascript}
 

@@ -1,4 +1,4 @@
-# Operators
+## Operators
 
 Again, since we assume some programming experience, we'll scoot pass this pretty quickly. The same operator precedence rules exist in Javascript as it does for most other languages. 
 
@@ -6,7 +6,7 @@ Again, since we assume some programming experience, we'll scoot pass this pretty
 
 **ProTip:** If you feel you need to use the tip above, consider simplifying your code by separating out calculation steps. It will make your code more readable and prevent hard-to-detect bugs.
 
-## Assignment
+### Assignment
 
 To assign a value to a variable, use the assignment (`=`) operator.
 
@@ -17,7 +17,7 @@ var apples = 5;
 
 ```
 
-## Equality
+### Equality
 
 To check whether a variable is holding a specific value, use the equality (`==`) operator.
 
@@ -31,23 +31,24 @@ apples == 5;    // true
 
 ```
 
-## Basic Operators
+### Basic Operators
 
 Basic Operators: `+, -, /, *` for addition, subtraction, division, and multiplication. They all do what you think they do.
 
-## Comparison Operators
+### Comparison Operators
 
 Comparison Operators: `>, >=, <, <=` for greater than, greater than or equal to, less than, and less than or equal to. These, too, all do what you think they do.
 
-## Logical Operators
+### Logical Operators
 
 Logical Operators: `&&, ||, !` for and, or, and not, respectively. Again, these do what you think they do.
 
-## Incrementing
+### Unary Operators
 
-Increment: `a++, ++a, a--, --a`
+Increment: `a++, ++a`
+Decrement: `a--, --a`
 
-The only difference is in _when_ the incrementing occurs (before or after assignment);
+The only difference is in _when_ the incrementing or decrementing occurs (before or after assignment). Here is an example:
 
 ```{javascript}
 
@@ -66,22 +67,28 @@ console.log(applies);   // 8
 
 ```
 
-## Ternary
+### Ternary
 
-ternary: `?`
-
-Very useful for single-line conditional execution
+Ternary operators (`?`) are useful for single-line conditional execution. It works as follows
 
 ```{javascript}
 
-var enoughApples = (apples == 9) ? true :  false;
+(conditionToBeTested) ? statementToExecuteIfTrue : statementToExecuteIfFalse;
+
+```
+
+Below is an example.
+
+```{javascript}
+
+var enoughApples = (apples == 9) ? true : false;
 console.log(enoughApples);  // false
 
 ```
 
-## Incrementing vs. Concatenating
+### Incrementing vs. Concatenating
 
-For numeric variables, to increment by more than 1, use `+=`;
+To increment numeric variables by more than 1, use `+=`;
 
 ```{javascript}
 

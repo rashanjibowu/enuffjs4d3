@@ -89,7 +89,11 @@ for (var currentAppleCount = 0; currentAppleCount <= minimumAppleCount; currentA
 
 ```
 
-I'd highly recommend checking out <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array> for a detailed overview of all of the wonderful things you can do with Javascript arrays. Personal favorites include `array.forEach()`, `array.push()`, `array.filter()`, and `array.map()`.
+### More on Arrays
+
+I'd highly recommend checking out <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array> for a detailed overview of all of the wonderful things you can do with Javascript arrays. 
+
+Personal favorites include `array.forEach()`, `array.push()`, `array.filter()`, and `array.map()`.
 
 ## Conclusion
 

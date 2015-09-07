@@ -1,5 +1,5 @@
 
-# Getting Started
+## Getting Started
 
 In this module, we will:
 
@@ -10,13 +10,13 @@ In this module, we will:
 5. Use `console.log` in a script
 6. Explore the browser console
 
-## Setting up Dev Environment
+### Set up dev environment
 
 1. Download and install Chrome
 2. Enable Chrome Developer Tools
 3. Download the D3 library
 
-## Create a basic webpage
+### Create a basic webpage
 
 ```{html}
 
@@ -32,7 +32,7 @@ In this module, we will:
 </html>
 
 ```
-## Link D3 to your web page
+### Link D3 to your web page
 
 Within your `head` tag and after your `title` tag, add the following line to your html:
 
@@ -40,7 +40,7 @@ Within your `head` tag and after your `title` tag, add the following line to you
 
 You should replace the text "path/to/d3.js" with the path to the library.
 
-## Link an external CSS file and external JS file to your app
+### Link an external CSS file and external JS file to your app
 
 Within your `head` tag and after your `title` tag, add the following line to your html:
 
@@ -54,7 +54,7 @@ After your `body` tag and within the `html` tag, add the following line to your 
 
 Don't forget to create a file called app.js in that directory. OR just copy the `app` directory from within this repo. There is already a JS file that may be helpful.
 
-## Using `console.log`
+### Using `console.log`
 
 `console.log` is a very powerful debugging tool; you'll probably use it often to figure out what is going on in your program. This command is used to print data to the browser's console. Here is an example:
 

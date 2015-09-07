@@ -1,4 +1,4 @@
-# Arrays
+## Arrays
 
 Arrays are pretty awesome. They contain multiple data and can contain multiple types of data. Here are some examples.
 

@@ -1,8 +1,8 @@
-# Functions
+## Functions
 
 Functions are reusable pieces of code that _may_ take an input, performs some work, and _may_ return a value.
 
-## A basic function:
+### A basic function:
 
 ```{javascript}
 
@@ -12,7 +12,7 @@ function printThis(inputString) {
 
 ```
 
-## Basic function with return value
+### Basic function with return value
 
 ```{javascript}
 
@@ -22,7 +22,7 @@ function squareMe(number) {
 
 ```
 
-## Basic function using a predefined function
+### Basic function using a predefined function
 
 ```{javascript}
 
@@ -33,37 +33,25 @@ function calcArea(radius) {
 ```
 **Syntax matters**
 
-### Declaring a function
+### Declare and define simultaneously
 
-Note that functions are declared using the keyword `function`, followed by the name of the function and parentheses. Any inputs must be named between the parentheses as a comma separated list. For example:
+Some programming languages allow for programmers to declare and function and define it later. Javascript is not such a language.
+
+### Defining a function
+
+Note that functions are declared using the keyword `function`, followed by the name of the function and parentheses. Any inputs must be named between the parentheses as a comma separated list. 
+
+Functions are defined by including implementation details within the block `{}`. For example:
 
 ```{javascript}
 
 function getFriendsByGender(number, boolean, array) {
-    // implementation of algorithm to detect gender from name
+    // implementation of some algorithm that detects gender from name
 }
 
 ```
 
-Note that for function declarations, no semicolon is necessary at the end of the statement.
-
-### Calling a function
-
-To call a function, simply type the function name, followed immediately by parentheses and any input values. Here is an example:
-
-```{javascript}
-
-// First example
-calcArea(5);    // 78.54
-
-// complicated example
-var isFemale = true;
-var friends = ["Jerry", "George", "Elaine", "Kramer"];
-var minNumChars = 3;
-
-getFriendsByGender(minNumChars, isFemale, friends);
-
-```
+Note that for function definitions, no semicolon is necessary at the end of the statement.
 
 ### `return`
 
@@ -115,6 +103,26 @@ var aFunction = function() {
 ```
 
 Note that since this is an assignment to a variable, a semi-colon **is** necessary at the end of the statement.
+
+### Calling a function
+
+To call a function, simply type the function name, followed immediately by parentheses and any input values. Here is an example:
+
+```{javascript}
+
+// First example
+calcArea(5);    // 78.54
+
+// complicated example
+var isFemale = true;
+var friends = ["Jerry", "George", "Elaine", "Kramer"];
+var minNumChars = 3;
+
+getFriendsByGender(minNumChars, isFemale, friends);
+
+```
+
+**Protip:** Note that it is customary to define functions at the bottom of the scope in which the function needs access, even if you use the function earlier in your code. When the browser interprets your code, your functions will be made available within its scope before execution. That means you can define your function anywhere in that scope. For improved readability, we often place function definitions at the bottom of the scope in which it needs access.
 
 ### Functions can produce other functions 
 
