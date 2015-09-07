@@ -76,4 +76,4 @@ console.log(names);     // 3.14, "Curly", "John"
 
 ## Conclusion
 
-Things are about to get a little [loopy](05_iteration/loops.md)!
+Things are about to get a little [loopy](../05_iteration/loops.md)!

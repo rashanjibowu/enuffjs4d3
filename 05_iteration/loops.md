@@ -93,4 +93,4 @@ I'd highly recommend checking out <https://developer.mozilla.org/en-US/docs/Web/
 
 ## Conclusion
 
-Now, let's look through [objects](06_objects/objects.md), D3's other powerhouse data type.
+Now, let's look through [objects](../06_objects/objects.md), D3's other powerhouse data type.

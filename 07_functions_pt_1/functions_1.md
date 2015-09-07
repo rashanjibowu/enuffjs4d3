@@ -181,4 +181,4 @@ d3.append("XXX");
 
 ## Conclusion
 
-So, that's it for the basics of Javascript. You're now ready to start messing around with D3.js! Let's checkout the [essential workflow](08_essential_workflow/essential_workflow.md).
+So, that's it for the basics of Javascript. You're now ready to start messing around with D3.js! Let's checkout the [essential workflow](../08_essential_workflow/essential_workflow.md).

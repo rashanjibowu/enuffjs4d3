@@ -85,5 +85,5 @@ Yes, this is possible. Check out `for...in`. Since it's not critical for our pur
 
 ## Conclusion
 
-Congrats! You're done with the basics of objects. Let's move on to [functions](07_functions/functions.md).
+Congrats! You're done with the basics of objects. Let's move on to [functions](../07_functions/functions.md).
 
