@@ -1,3 +1,5 @@
+![JS Logo](logos/js_logo_100/png)  ![D3 Logo](logos/d3_logo_100/png)
+
 
 ## Hello World
 
@@ -11,9 +13,13 @@ Instead, we focus on selected basics of Javascript; just enough to get you to un
 
 **2. You will not master D3.js from this tutorial**
 
-The D3.js library is quite extensive and powerful. It contains too much to cover in a basic tutorial such as this. Instead, we focus on the Javascript that you need to know in order to not feel lost when using the library. 
+The D3.js library is quite extensive and powerful. It contains too much to cover in a basic tutorial such as this. Instead, we focus on the Javascript that you need to know in order to not feel lost when using the library.
 
 Later on in the tutorial, we'll walk through example D3.js code that produces a basic plot.
+
+### Errors/Typos
+
+Since this is a work in progress, if you find an error or typo, please submit a pull request with the fix! It would be much appreciated
 
 ### Let's Get Started!
 
