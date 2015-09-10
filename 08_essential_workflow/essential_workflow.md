@@ -1,6 +1,8 @@
 
 ## The Essential D3 Workflow
 
+![D3 Logo](../logos/d3_logo_100.png)  ![HTML5 Logo](../logos/HTML5_logo_100.png)   ![CSS Logo](../logos/CSS3_logo_100.png)    ![SVG Logo](../logos/SVG_logo_100.png)    ![Javascript Logo](../logos/JS_logo_100.png)
+
 D3 combines an understanding of the Document Object Model ("DOM"), Scalable Vector Graphics, and Javascript to make rich visualizations of data. The essential workflow pattern is as follows:
 
 ### Setting Up Your Visualization
