@@ -1,4 +1,4 @@
-![JS Logo](logos/js_logo_100/png)  ![D3 Logo](logos/d3_logo_100/png)
+![JS Logo](logos/js_logo_100.png)  ![D3 Logo](logos/d3_logo_100.png)
 
 
 ## Hello World
