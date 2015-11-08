@@ -1,3 +1,4 @@
+
 ![JS Logo](logos/js_logo_100.png)  ![D3 Logo](logos/d3_logo_100.png)
 
 
@@ -19,7 +20,7 @@ Later on in the tutorial, we'll walk through example D3.js code that produces a 
 
 ### Errors/Typos
 
-Since this is a work in progress, if you find an error or typo, please submit a pull request with the fix! It would be much appreciated
+Since this is a work in progress, if you find an error or typo, please submit a pull request with the fix! It would be much appreciated.
 
 ### Let's Get Started!
 
